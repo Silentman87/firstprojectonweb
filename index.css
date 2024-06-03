@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(103, 240, 103);
+}
+  
+#vbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  
+}
+ h1 {
+  color: lightcoral;
+  text-align: center;
+  letter-spacing: 1px;
+ }
+#id2 {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: lightblue;
+  font-size: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(244, 24, 4, 0.4);
+  border-radius: 20px;
+  margin: 5px;
+  transition-duration: 0.5s;
+}
+.btn:hover {
+  background-color: lightblue;
+  color: yellow;
+  box-shadow: 2px 2px 2px 2px red;
+}
+
+
+.key-pressed {
+  background-color: yellow;
+}
